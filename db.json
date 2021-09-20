@@ -49,9 +49,8 @@
     {
       "title": "Offer",
       "display": true,
-      "lookup_file" : "levels_decoder",
-      "lookup": "attr2",
-      "value": "offer",
+      "lookup": "levels_decoder",
+      "value": "attr2",
       "ui_type": "attr-text",
       "header": true,
       "data_value": "offer"
