@@ -1,0 +1,153 @@
+{
+
+  "conjointsetup": [
+
+    { "title": "version", "display": false, "data_value": "version" },
+
+    { "title": "task", "display": false, "data_value": "task" },
+
+    {
+
+      "title": "concept",
+
+      "display": true,
+
+      "lookup": "levels_decoder",
+
+      "value": "concept",
+
+      "ui_type": "main-image",
+
+      "data_value": "concept"
+
+    },
+
+    {
+
+      "title": "Size",
+
+      "display": true,
+
+      "lookup": "levels_decoder",
+
+      "value": "size",
+
+      "ui_type": "attr-text",
+
+      "header": true,
+
+      "data_value": "size"
+
+    },
+
+    {
+
+      "title": "Price",
+
+      "display": true,
+
+      "lookup": "levels_decoder",
+
+      "value": "price",
+
+      "ui_type": "attr-text",
+
+      "header": true,
+
+      "data_value": "price"
+
+    },
+
+    {
+
+      "title": "Benifits",
+
+      "display": true,
+
+      "lookup": "levels_decoder",
+
+      "value": "claim",
+
+      "ui_type": "attr-text",
+
+      "header": true,
+
+      "data_value": "claim1"
+
+    },
+
+    {
+
+      "title": "",
+
+      "display": true,
+
+      "lookup": "levels_decoder",
+
+      "value": "claim",
+
+      "ui_type": "attr-text",
+
+      "header": false,
+
+      "data_value": "claim2"
+
+    },
+
+    {
+
+      "title": "Offer",
+
+      "display": true,
+
+      "lookup_file" : "http://34.228.185.95/conjoint-js/filename.json",
+
+      "lookup": "attr2",
+
+      "value": "offer",
+
+      "ui_type": "attr-text",
+
+      "header": true,
+
+      "data_value": "offer"
+
+    }
+
+  ],
+
+
+
+  "levels_decoder": [
+
+    {
+
+      "concept": "http://34.228.185.95/integration/assets/banana.png",
+
+      "size": "3.1 oz",
+
+      "price": "$1.19",
+
+      "claim": "Contains up to 10g protein",
+
+      "offer": "10% off"
+
+    },
+
+    {
+
+      "concept": "http://34.228.185.95/integration/assets/strawberry.png",
+
+      "size": "4 oz",
+
+      "price": "$1.83",
+
+      "claim": "High Fibre",
+
+      "offer": "10% off"
+
+    }
+
+  ]
+
+}
