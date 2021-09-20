@@ -49,8 +49,9 @@
     {
       "title": "Offer",
       "display": true,
-      "lookup": "levels_decoder",
-      "value": "attr2",
+      "lookup_file" : "http://34.228.185.95/conjoint-js/filename.json",
+      "lookup": "attr2",
+      "value": "offer",
       "ui_type": "attr-text",
       "header": true,
       "data_value": "offer"
@@ -59,20 +60,18 @@
 
   "levels_decoder": [
     {
-      "concept": "URL1",
+      "concept": "http://34.228.185.95/integration/assets/banana.png",
       "size": "3.1 oz",
       "price": "$1.19",
       "claim": "Contains up to 10g protein",
-      "offer": "10% off",
-      "attr2": "10% Off"
+      "offer": "10% off"
     },
     {
-      "concept": "URL2",
+      "concept": "http://34.228.185.95/integration/assets/strawberry.png",
       "size": "4 oz",
       "price": "$1.83",
       "claim": "High Fibre",
-      "offer": "10% off",
-      "attr2": "50% Off"
+      "offer": "10% off"
     }
   ]
 }
